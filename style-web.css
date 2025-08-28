@@ -1,5 +1,5 @@
 body{
-	background-color:lavenderblush;
+	background-color: #f0c0cd;
 }
 h1{
   text-align: center;
@@ -13,10 +13,11 @@ h2{
 h3{
 	color: purple;
 	background-color: pink;
-	width: 1685px;
+	width: 90%;
+	max-width: 1600px;
 	border: 25px solid plum;
 	padding: 50px;
-	margin: 20px;
+	margin: 20px auto;
 }
 p{
 	color: MediumVioletRed;
@@ -34,6 +35,7 @@ a:active {
 }
 img{
 	width:500px;
+	border:5px solid #82144e;
 }
 #name{
 	font-size:35px;
@@ -42,9 +44,22 @@ h3::first-letter {
   color: mediumvioletred;
   font-size: xx-large;
 }
-.bowldiv{
-	float:left;
+.bowltylerflex{
+	display: flex;
+	justify-content: space-around;
 }
-.tylerdiv{
-	float:right;
+.hardrollingflex{
+	display: flex;
+	justify-content: space-around;
 }
+.tamebloodflex{
+	display: flex;
+	justify-content: space-around;
+}
+#disclosureid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
